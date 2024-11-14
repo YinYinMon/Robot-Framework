@@ -14,7 +14,7 @@ To run the tests, ensure the following tools are installed on your system:
 1. Clone the repository:
    ```bash
    git clone https://github.com/YinYinMon/Robot-Framework.git
-   cd APITesting_RobotFramework
+   cd Robot-Framework
    
 ###  Run Steps 
 	- Run via PyCharm Community Edition **
