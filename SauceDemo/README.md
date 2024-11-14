@@ -9,6 +9,12 @@ This project automates UI testing for Sauce Demo using Robot Framework and Selen
 - PyCharm Community Edition 2024.2.4
 - Plugin - Robot Framework Language Server
 
+### Installation Steps
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/YinYinMon/Robot-Framework.git
+   cd Robot-Framework
+
 ## Run the Script
     # Run via PyCharm Community Edition **
     # Rebuild and Run tests :
