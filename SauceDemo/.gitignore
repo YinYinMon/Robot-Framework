@@ -1,0 +1,44 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.env/
+.venv/
+env/
+venv/
+
+# Robot Framework results and logs
+results/
+output.xml
+log.html
+report.html
+debug.log
+*.robotframeworkcache/
+
+# Editor-specific settings
+.vscode/
+.idea/
+*.iml
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Dependencies
+*.egg
+*.egg-info/
+dist/
+build/
+*.wheel
+
+# Python packaging
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Miscellaneous
+*.bak
+*.swp
