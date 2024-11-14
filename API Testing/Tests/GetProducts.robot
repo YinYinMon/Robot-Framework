@@ -23,8 +23,8 @@ Test Get All Products
     ${response_body}=   To Json    ${response.text}
     Log    ${response_body}
 
-Test Invalid Endpoint
-    [Documentation]     Verify Invalid Endpoint
+Test Get Products with Invalid Endpoint
+    [Documentation]     Verify Get Product with Invalid Endpoint
     Create Session    api_session    ${BASE_URL}
     ${response}=    GET   ${BASE_URL}    ${Invalid_PRODUCTS_ENDPOINT}
     Should Be Equal As Numbers    ${response.status_code}    404
